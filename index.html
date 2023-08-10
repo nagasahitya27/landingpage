@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="we">
+        <p id="weatherInfo">Weather: <span id="weatherMain"></span>, Temperature: <span id="weatherTemp"></span>°C</p>
+    </div>
+    <div class="search-container">
+        <!-- <p id="weatherInfo">Weather: <span id="weatherMain"></span>, Temperature: <span id="weatherTemp"></span>°C</p> -->
+        <h1 id="cityName">New Delhi</h1>
+        <input type="text" id="searchInput" placeholder="Search for a city...">
+        <button id="searchButton">Search</button>
+        <!-- <p id="weatherInfo">Weather: <span id="weatherMain"></span>, Temperature: <span id="weatherTemp"></span>°C</p> -->
+    </div>
+    <div class="city-info">
+        <img id="cityBackground" src="" alt="City Background">
+        <!-- <p id="weatherInfo">Weather: <span id="weatherMain"></span>, Temperature: <span id="weatherTemp"></span>°C</p> -->
+    </div>
+    <div class="tabs">
+        <button class="tab" id="placesTab">PLACES</button>
+        <button class="tab" id="hotelsTab">HOTELS</button>
+        <button class="tab" id="restaurantsTab">RESTAURANTS</button>
+        <button class="tab" id="officesTab">OFFICES</button>
+    </div>
+    <div class="content" id="content">
+        <!-- Content will be dynamically populated here based on the selected tab -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
